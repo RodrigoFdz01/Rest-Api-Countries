@@ -1,5 +1,13 @@
-.square {
-  height: 150px;
-  width: 150px;
-  background-color: tomato;
+.img {
+  height: 100px;
+}
+
+.card {
+  border: 2px solid black;
+  width: 220px;
+}
+
+#container2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
 }
