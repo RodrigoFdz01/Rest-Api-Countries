@@ -3,11 +3,12 @@
 }
 
 .card {
-  border: 2px solid black;
+  border: 2px solid rgb(49, 48, 48);
   width: 220px;
 }
 
 #container2 {
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
 }
